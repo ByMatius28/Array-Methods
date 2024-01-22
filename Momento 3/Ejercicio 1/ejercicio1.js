@@ -1,12 +1,11 @@
-'use strict'
 
-//Ingresar un nombre con promp y verificar si el ombre ingresado se enceuntra en el vector
+let fruits=['apple','banana','orange','grapes']
 
-let students = ["Juan","Jose","Pedro","Maria","Alejandra"];
-let nombre = prompt("Ingrese un nombre");
+for (let fruit of fruits){
+    alert(fruit);
+}
 
-if ( students.includes(nombre)){
-    alert("Si se encuentra");
-} else{
-    alert("No se encuentra")
+let word ="Hola Mundo";
+for(let char of word) {
+    alert(char);
 }
